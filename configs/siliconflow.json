@@ -1,0 +1,14 @@
+{
+    "name": "siliconflow",
+    "register_url": "https://cloud.siliconflow.cn/api/user/register",
+    "form_fields": {
+        "email": "{email}",
+        "password": "{password}",
+        "username": "{username}"
+    },
+    "method": "POST",
+    "content_type": "json",
+    "otp_keywords": ["verification", "code", "SiliconFlow", "验证码"],
+    "api_key_url": "https://cloud.siliconflow.cn/api/user/token",
+    "verify_url": "https://cloud.siliconflow.cn/api/user/login"
+}

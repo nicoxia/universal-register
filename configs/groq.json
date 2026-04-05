@@ -1,0 +1,13 @@
+{
+    "name": "groq",
+    "register_url": "https://api.groq.com/v1/users",
+    "form_fields": {
+        "email": "{email}",
+        "password": "{password}"
+    },
+    "method": "POST",
+    "content_type": "json",
+    "otp_keywords": ["verification", "code", "Groq", "confirm"],
+    "api_key_url": "https://console.groq.com/keys",
+    "verify_url": "https://api.groq.com/v1/users/login"
+}
